@@ -1,21 +1,11 @@
-import React from 'react';
-import { View , Text, StyleSheet } from 'react-native';
+import HolaMundoScreen from "./screens/holamundo.screen";
 
-const styles = StyleSheet.create({
-  container:{
-    flex:1,
-    justifyContent:'center',
-    alignItems:'center',
-    backgroundColor:'grey'
-  },
-  text:{
-    fontSize:30
-  }
-});
+const App = () => {
 
-const App = () =>
-  <View style={styles.container}>
-    <Text style={styles.text} >Hola mundo</Text>
-  </View>
+  return(
+    <HolaMundoScreen/>
+  )
+
+}
 
 export default App
